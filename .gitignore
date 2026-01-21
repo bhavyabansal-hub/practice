@@ -1,6 +1,36 @@
+# Python
 __pycache__/
-.pytest_cache/
+*.pyc
 .venv/
+venv/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+
+# Env
 .env
-test_artifacts/
-*.log
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Test artifacts (BIG!)
+testArtifacts/
+reports/
+screenshots/
+videos/
+logs/
+
+# Node
+node_modules/
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.mp4

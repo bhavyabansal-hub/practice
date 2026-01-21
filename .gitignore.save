@@ -1,0 +1,6 @@
+/
+.pytest_cache/
+.venv/
+.env
+test_artifacts/
+*.log
