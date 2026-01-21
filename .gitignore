@@ -1,36 +1,41 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
 .venv/
+env/
+ENV/
 venv/
+env.bak/
+*.env
 
-# Pytest
+# Ignore env folder inside configs
+configs/env/
+
+# Pytest cache
 .pytest_cache/
-htmlcov/
+test_artifacts/
 
-# Env
-.env
-.env.*
+# Logs
+*.log
 
-# IDE
+# IDE files
 .vscode/
 .idea/
+*.iml
 
-# OS
+# OS generated files
 .DS_Store
-
-# Test artifacts (BIG!)
-testArtifacts/
-reports/
-screenshots/
-videos/
-logs/
-
-# Node
-node_modules/
-
-# Archives
-*.zip
-*.tar
-*.gz
-*.mp4
+Thumbs.db
+*.swp
