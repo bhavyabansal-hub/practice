@@ -1,0 +1,14 @@
+[project]
+name = "vendor-panel-automation"
+version = "0.1.0"
+description = "Selenium-based UI automation framework for Vendor Panel"
+requires-python = ">=3.10"
+dependencies = [
+  "pytest",
+  "selenium",
+  "python-dotenv",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

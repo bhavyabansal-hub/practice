@@ -1,0 +1,12 @@
+{
+  "accounts": [
+    {
+      "username": "vendor_demo_1",
+      "password": "REDACTED"
+    },
+    {
+      "username": "vendor_demo_2",
+      "password": "REDACTED"
+    }
+  ]
+}
