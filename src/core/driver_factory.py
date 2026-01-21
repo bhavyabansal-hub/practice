@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class DriverFactory:
     @staticmethod
-    def create_driver(headless=False):
+    def create_driver(headless=True):
         chrome_options = Options()
 
         if headless:
