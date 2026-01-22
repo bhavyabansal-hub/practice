@@ -39,3 +39,10 @@ test_artifacts/
 .DS_Store
 Thumbs.db
 *.swp
+
+# Environment files
+*.env
+configs/env/
+
+# Example environment file
+!.env.example
