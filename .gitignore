@@ -1,39 +1,48 @@
-# --- Python Basics ---
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
 
-# --- Distribution / Packaging ---
+# Distribution / packaging
 .Python
 *.egg-info/
 dist/
 build/
 
-# --- Virtual Environments ---
+# Virtual environments
 .venv/
 env/
 ENV/
 venv/
+env.bak/
+*.env
 
-# --- Testing & Artifacts ---
+# Ignore env folder inside configs
+configs/env/
+
+# Pytest cache
 .pytest_cache/
 test_artifacts/
+
+# Logs
 *.log
 
-# --- IDE Settings (VS Code / PyCharm) ---
+# IDE files
 .vscode/
 .idea/
 *.iml
 
-# --- OS System Files ---
+# OS generated files
 .DS_Store
 Thumbs.db
+*.swp
 
-# --- Security (The Most Important Part) ---
-# Ignore all .env files (Your secrets)
-.env
+# Environment files
 *.env
+configs/env/
 
-# BUT, do NOT ignore the example file (So teammates know what keys to set)
+# Example environment file
 !.env.example
